@@ -1,7 +1,7 @@
 # myGameScore
 MyGameScore é uma aplicação Web desenvolvida com uma Api utilizando como linguagem base o C#, .net core 2.2.
 
-# Para que serve myGameScore ?
+# Para que serve o myGameScore ?
 Com o myGameScore o jogador poderá inserir os pontos que ele fez em um jogo naquela determinada data, assim terá como ver estatisticas como qual foi a sua maior pontuação.
 
 #  Dependências
@@ -15,7 +15,7 @@ Execute o scripts de bancos de dados disponíveis na pasta "dataBaseScripts".
 
 -API:Abra a solução usando o Visual Studio (myGameScore.sln).
 
--Defina o projeto da api (myGameScore.Application.WebAPI) como projeto inicialização.
+-Defina o projeto da api (myGameScore) como projeto inicialização.
 
 -Defina a url de inicio como "swagger":
 
