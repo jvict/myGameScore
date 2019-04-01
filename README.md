@@ -15,7 +15,9 @@ Execute o scripts de bancos de dados disponíveis na pasta "dataBaseScripts" na 
 
 API:
 Abra a solução usando o Visual Studio (myGameScore.sln).
+
 Defina o projeto da api (myGameScore.Application.WebAPI) como projeto inicialização.
+
 Defina a url de inicio como "swagger":
 
 Botão direito no projeto da api > Propriedades > Debug > Lauch browser: "swagger".
