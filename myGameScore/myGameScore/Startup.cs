@@ -35,11 +35,11 @@ namespace myGameScore
                     {
                         Title = "myGameScore",
                         Version = "v1",
-                        Description = "API Game Score - Labsoft",
+                        Description = "API Game Score ",
                         Contact = new Contact
                         {
-                            Name = "Fatec",
-                            Url = "http://www.Fatec.com.br"
+                            Name = "Game Score",
+                            Url = ""
                         }
                     });
             });
