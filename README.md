@@ -18,9 +18,11 @@ Execute o scripts de bancos de dados disponíveis na pasta "dataBaseScripts".
 -Defina o projeto da api (myGameScore.Application.WebAPI) como projeto inicialização.
 
 -Defina a url de inicio como "swagger":
+
 Botão direito no projeto da api > Propriedades > Debug > Lauch browser: "swagger".
 
 -Defina a porta de sua preferencia que sera usada para a API:
+
 Botão direito no projeto da api > Propriedades > Debug > App Url: "http://localhost:44309".
 
 Assim você já deve conseguir usar o swagger para utilizar a API e realizar testes.
