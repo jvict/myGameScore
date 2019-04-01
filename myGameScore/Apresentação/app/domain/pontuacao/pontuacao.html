@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>myGameScore</title>
+
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="jogador.css">
+
+    <script src="../../../lib/jquery.js"></script>
+    <script src="../../../lib/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav  class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+        <a class="navbar-brand mr-5 ml-5" href="#">Game Score</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-dark" href="jogador.html">Jogador
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                
+                
+            </ul>
+            <ul class="navbar-nav mr-auto contents">
+
+                <li class="nav-item mr-5">
+                    <a class="nav-link" href="../login/login.html">Sair</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+
+        <h2 class="mb-3">
+            Pontuação
+        </h2>
+
+        <br><br>
+        <table class="table">
+            <thead>
+              <tr>
+              <!--
+                Aqui pensei em colocar as informações de quantidade de jogos, pontuação na temporada, maior pontução
+                menor pontuação, media de pontos, quantidade de vezes que bateu o proprio recorde todas dentro
+                de uma tabela, porém aqui neste ponto tive dificuldade como seria fazendo a requisição pelo JavaScript.
+
+                Como podera perceber no arquivo pontuacao.js tentei desenvolver uma forma porém tive problemas também 
+                com a interligação entre o Front-end e o Back-end.
+
+              -->  
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Jogos Disputados</th>
+                <td>10</td>
+              </tr>
+              <tr>
+                <th scope="row">Total de Pontos na Temporada</th>
+                <td>50</td>
+              </tr>
+              <tr>
+                <th scope="row">Media de Pontos por Jogo</th>
+                <td>52,5</td>
+              </tr>
+              <tr>
+                <th scope="row">Maior Pontuação em um jogo</th>
+                <td>18</td>
+              </tr>
+              <tr>
+                <th scope="row">Menor Pontuação em um jogo</th>
+                <td>5</td>
+              </tr>
+              <tr>
+                <th scope="row">Quantidade de vezes que bateu o próprio recorde</th>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <span>
+            <a href="pontuacaoCriar.html">Lançar Pontos</a>
+          </span>
+          <br><br>
+          <span>
+            <a href="pontuacao.html">Ver Lançamentos</a>
+          </span>
+         
+
+    </main>
+    
+
+    
+<script src="pontuacao.js"></script>
+</body>
+
+</html>
