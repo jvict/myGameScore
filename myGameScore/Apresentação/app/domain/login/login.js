@@ -1,5 +1,5 @@
 var api = 'http://localhost:44309/api/login/';
-
+//Tive dificuldade em fazer o front-end se comunicar com o back-end.
 var elementosForm = {
     email: document.querySelector('#Email'),
     senha: document.querySelector('#senha')
